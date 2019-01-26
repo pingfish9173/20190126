@@ -1,0 +1,12 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "shoppingCart": {
+      "$user_id": {
+        ".read":true,
+        ".write": true
+      }
+    }
+  }
+}
